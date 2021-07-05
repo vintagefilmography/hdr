@@ -1,13 +1,14 @@
 # HDR Windows software for Hawkeye
 Note: Hawkeye board V12 or higher and MSP FW mod are required for proper HDR operation to provide two camera triggers for a single external trigger.  
-
+https://github.com/vintagefilmography/msp430/tree/master/freq_gen_12_hdr_turbo  
+  
 This is the windows software that runs hdr on the Wolverine scanner that has the Hawkeye mod.   
 The software is written in Visual Basic and it connects to the camera and waits for the image ready event.   
 After the event is receied the sw stores the first image and lowers the camera exposure for the second image.   
 When the second event is received it stores the second image.   
 The process then repeats.   
 The hawkeye MSP430 firmware has a mod to trigger the camera twice for each external trigger.  
-To run the sw go to .../bin/Release dir and run the HDR.exe file.   
+To run the sw go to .../bin/Release dir and run the HDR.exe file.   https://github.com/vintagefilmography/msp430/tree/master/freq_gen_12_hdr_turbo
 The Device Settings window will pop up.   
 Select the device and resolution as required and click OK.   
 The Device Window will close and the app window will pop up.   
